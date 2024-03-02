@@ -1,0 +1,36 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    background-image: url();
+    background-color: darkgreen;
+    background-size: cover;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: goldenrod;
+    font-style: italic;
+}
+
+#starting-question {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.start-btn {
+    background-color: goldenrod;
+    color: darkgreen;
+    font-size: 30px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
