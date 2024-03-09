@@ -1,5 +1,6 @@
-let firstNumber = 8
-let secondNumber = 10
+let firstCard = 8
+let secondCard = 10
+let cards = [firstCard, secondCard]
 let sum = firstNumber + secondNumber
 let message = ""
 let blackjackWin = false
@@ -7,9 +8,15 @@ let startQuestion = document.getElementById("start-question")
 let cardEL = document.getElementById("cards-el")
 let sumEl = document.getElementById("sum-el")
 
+
 function startGame() {
+    renderGame()
+}
+
+
+function renderGame() {
     sumEl.textContent = "Sum: " + sum
-    cardEL.textContent = "Cards: " + firstNumber + ", " + secondNumber
+    cardEL.textContent = "Cards: " + cards[0] + ", " + cards[1]
     
     if (sum <=20) {
         message = "Pick another card!"
@@ -23,9 +30,8 @@ function startGame() {
 }
 
 function newCard() {
-    let card = 4
-
-    sum+=card
-
-    startGame()
+    let anotherCard = 4
+    sum+=anotherCard
+    cards.push(anotherCard)
+    renderGame()
 }
