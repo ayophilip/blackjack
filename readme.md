@@ -1,4 +1,4 @@
-##BlackJack Game
+## BlackJack Game
 
 I'm building this blackjack game to revamp my Javascript skills. I'll be updating this game based on new ideas that makes the game better.
 
